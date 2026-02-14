@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://bcuzbroa.fr",
   desc: "A dev and cybersecurity blog",
   title: "Bcuzbroa blog",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "rustacean.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
