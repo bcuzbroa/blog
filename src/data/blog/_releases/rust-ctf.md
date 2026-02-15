@@ -64,7 +64,7 @@ pub trait ChallengeVerifier {
 
 This trait is implemented for each challenge in separate files.
 
-To create the encrypted flag, eg: FLAG{my_blog}, I implemented the `encryp_flag.rs` module is `oracle\bin\encrypt_flag.rs`. The encryption uses the awesome [XChaCha20Poly1305](https://en.wikipedia.org/wiki/ChaCha20-Poly1305) algorithm with a key derived from the `run_code` output method !
+To create the encrypted flag, let's say FLAG{my_blog}, I implemented the `encryp_flag.rs` module in `oracle\bin\`. The encryption uses the awesome [XChaCha20Poly1305](https://en.wikipedia.org/wiki/ChaCha20-Poly1305) algorithm with a key derived from the `run_code` output method !
 
 The module generates the ciphertext which is later stored in `secret_data`. Our trait is now fully implemented, lets give the challenge a try !
 
@@ -95,7 +95,7 @@ pub fn decrypt(
 }
 ```
 
-Later the `main.rs` file organizes the overall challenge:
+The `main.rs` file finally organizes the overall challenge:
 
 ```rust
 fn main() {
@@ -143,6 +143,6 @@ The overall challenge flow is as follow:
 
 ### Note & huge cashprize
 
-I will give $5 to the first persone that pwns the oracle. By this I mean, find a way to retrieve the flags without doing the challenges. I guess it is possible to reverse it but I'm not yet used to reversing complex rust projects. Contact me if you manage to crack it.
+I will give $5 to the first person that pwns the oracle. By this I mean, find a way to retrieve the flags without doing the challenges. I guess it is possible to reverse it but I'm not yet used to reversing complex rust projects. Contact me if you manage to crack it.
 
 ![Meme](@/assets/images/meme_reverse.jpg)
