@@ -2,14 +2,10 @@
 ## Welcome !
 
 Welcome to my blog repository, feel free to tel me about any bug, typo or issue.
-
-*Bc*
-
-
-This website is powered by Astro paper :
-
-# AstroPaper 📄
+You can find the blog here: [bcuzbroa.fr](https://bcuzbroa.fr)
 
 
-![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)
+### Astro Paper
+This website is powered by Astro paper : AstroPaper 📄
+[GitHub link](https://github/satnaing/astro-paper)
 
