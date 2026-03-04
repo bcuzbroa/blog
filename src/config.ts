@@ -3,7 +3,7 @@ export const SITE = {
   author: "bcuzbroa",
   profile: "https://bcuzbroa.fr",
   desc: "A dev and cybersecurity blog",
-  title: "Bcuzbroa blog",
+  title: "Bcuzbroa's blog",
   ogImage: "rustacean.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
